@@ -23,4 +23,4 @@ class Solution(object):
                 if not stack or validMap[stack.pop()] != i:
                     return False
         
-        return not stack
+        return not stack 
